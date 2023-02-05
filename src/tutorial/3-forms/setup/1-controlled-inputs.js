@@ -12,7 +12,7 @@ const ControlledInputs = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (name && email) {
-      console.log('Formu gönder')
+      // console.log('Formu gönder')
       const person = { name, email }
       setPeople((people) => {
         return [...people, person]
